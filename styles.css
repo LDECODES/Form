@@ -32,6 +32,11 @@ body {
 .form-side {
     height: 100%;
     width: 65%;
+    background-color: white;
+    color: black;
+    padding: 2%;
+
+    
 }
 
 .branding {
@@ -58,20 +63,44 @@ body {
 
 .disclaimer {
     border: 1px solid black;
-    height: 37vh;
-    /*padding-top: ;
-    padding-bottom: ;
-    padding-left: ;
-    padding-right: ;*/
+    padding: 4%;
+    height: 25vh;
+    margin: 2%;
 
 }
 
 .info {
  border: 1px solid green;
- height: 28vh;
+ height: 35vh;
+ margin: 2%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
 }
 
 .submit {
  border: 1px solid red;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 2%;
+
+}
+
+button {
+    background-color: #596D48;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.inputs {
+    border: 2px solid black;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
 
 }
