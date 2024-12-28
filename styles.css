@@ -62,7 +62,6 @@ body {
  }
 
 .disclaimer {
-    border: 1px solid black;
     padding: 4%;
     height: 25vh;
     
@@ -70,7 +69,6 @@ body {
 }
 
 .info {
- border: 1px solid green;
  height: 38vh;
  margin: 2%;
  display: flex;
@@ -78,10 +76,11 @@ body {
  align-items: center;
  justify-content: center;
  flex-wrap: wrap;
+ background-color: rgb(212, 207, 207);
+ border-radius: 10px;
 }
 
 .submit {
- border: 1px solid red;
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -110,29 +109,34 @@ button {
 
 }
 
-input[type="email"]:invalid {
+input:invalid {
     border: 2px solid red;
 }
 
-input:focus {
-    border: 2px solid blue;
-}
+.inputs input:focus {
+    border-color: #3B82F6;
+    box-shadow: 0 0 4px #3B82F6;
+    outline: none;
+  }
+  
 
 input {
     
     border: 1px solid black;
-    width: 90%;
+    width: 200px;
     height: 50%;
     border-radius: 5px;
+    margin: 4px;
 
 }
 
 
-.section-1, .section-2, .section-3 {
+.section {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
 
 }
 
